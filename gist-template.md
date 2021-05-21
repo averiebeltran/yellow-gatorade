@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Matching an Email
 
 Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this gist I will describe the different components that make up a regex to match valid email addresses. The regex expression is: <pre><code>/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/</code></pre>
 
 ## Table of Contents
 
