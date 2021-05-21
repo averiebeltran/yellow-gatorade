@@ -10,15 +10,10 @@ This file will describe the different components that make up a regex to match v
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -30,17 +25,9 @@ The ^ symbol signifies the start of the string we want to match. The $ signifies
 
 In the regex above, we have one quanitifier. The {} that contain {2,6} state that we can have between 2 and 6 copies of of the [a-z/.] sequence that comes before it.
 
-### OR Operator
-
-There are no OR operators in this regex.
-
 ### Character Classes
 
 The character class \d matches a single character that is a digit. This is inside one of our bracket expressions.
-
-### Flags
-
-There are no Flags in this regex.
 
 ### Grouping and Capturing
 
@@ -52,11 +39,7 @@ There are three bracket expressions in the regex. The first expression [a-z0-9_\
 
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+The + symbol inside the () groups implies that we can have 1 or more of the preceding pattern inside the bracket expression.
 
 ## Author
 
